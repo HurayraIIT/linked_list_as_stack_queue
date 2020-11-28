@@ -3,11 +3,6 @@
 
 // TODO
 
-void initiateStack(void)
-{
-    // TODO: implement stack code
-}
-
 void initiateQueue(void)
 {
     // TODO: implement queue code
