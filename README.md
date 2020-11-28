@@ -15,21 +15,22 @@ An implementation of stack and queue with singly linked list
 # prompt
 
 1. Welcome message
-2. Choice: 1- Stack, 2- Queue, help
+2. Choice: 1- Stack, 2- Queue
+3. Print HELP menu
 
 # For Stack:
 
 1. Stack operations
     - push <num1> <num2> <num3> <num4>  `push the values in the stack`
     - print `print the stack`
-    - pop <count> `pop desired amount of elements`
+    - pop `pop one element`
 
 # For Queue
 
 2. Queue Operations
     - enqueue <num1> <num2> <num3> <num4> `push values in the queue`
     - print `print the queue`
-    - dequeue <count> `dequeue desired amount of elements`
+    - dequeue <count> `dequeue one element`
 
 # For help
 
