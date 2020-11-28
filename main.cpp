@@ -1,20 +1,20 @@
-#include<iostream>
+#include <iostream>
+#include "Node.h"
 
-class Node
+// Implement Insert
+
+// Implement size checking
+
+int checkListSize (Node *node)
 {
-    public:
-    int data;
-    Node *next;
-    Node(int val)
-    {
-        data = val;
-        next = NULL;
-    }
-};
+    if (node==NULL) return 1;
+}
 
 int main()
 {
+    // head -> node2 -> NULL
 
+    
 
     return 0;
 }
