@@ -1,12 +1,7 @@
 #pragma once
 #include <iostream>
-
-// TODO
-
-void initiateQueue(void)
-{
-    // TODO: implement queue code
-}
+#include "StackModule.h"
+#include "QueueModule.h"
 
 // Prompt
 

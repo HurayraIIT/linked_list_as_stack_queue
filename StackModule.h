@@ -36,7 +36,7 @@ void pushToStack(void)
     std::cout << "push " << value << " to stack\n";
 }
 
-void takeInput(void)
+void takeInputForStack(void)
 {
     char input[100] ;
     std::cin >> input;
@@ -50,5 +50,5 @@ void takeInput(void)
 void initiateStack(void)
 {
     printStackHelp();
-    takeInput();
+    takeInputForStack();
 }
