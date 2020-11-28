@@ -21,16 +21,16 @@ An implementation of stack and queue with singly linked list
 # For Stack:
 
 1. Stack operations
-    - push <num1> <num2> <num3> <num4>  `push the values in the stack`
+    - push `num1` `num2` `num3` `num4` : `push the values in the stack`
     - print `print the stack`
     - pop `pop one element`
 
 # For Queue
 
 2. Queue Operations
-    - enqueue <num1> <num2> <num3> <num4> `push values in the queue`
+    - enqueue `num1` : `num2` `num3` `num4` `push values in the queue`
     - print `print the queue`
-    - dequeue <count> `dequeue one element`
+    - dequeue  `dequeue one element`
 
 # For help
 
