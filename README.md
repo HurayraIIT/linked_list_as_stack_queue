@@ -1,5 +1,5 @@
-# linked_list_as_stack_queue
-An implementation of stack and queue with singly linked list
+# Implementation of Stack and Queue using Linked List
+An implementation of stack and queue with singly linked list and object oriented c++
 
 
 # details for the UI (terminal based)
@@ -8,7 +8,7 @@ An implementation of stack and queue with singly linked list
 
 1. Welcome message
 2. Choice: 1- Stack, 2- Queue
-3. Print HELP menu
+3. Print HELP menu for choice 1 and 2
 
 # For Stack:
 
@@ -29,3 +29,7 @@ An implementation of stack and queue with singly linked list
 # For help
 
 3. Show syntax or usage for the application
+
+# To run the code
+
+- Compile the project with c++14 or up, no extra dependencies
