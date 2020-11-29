@@ -25,7 +25,6 @@ void printQueue(void)
 
 void dequeueFromQueue(void)
 {
-    //std::cout << "dequeue from queue\n";
     Queue.deleteFirstElem();
     Queue.print();
     takeInputForQueue();
@@ -35,7 +34,6 @@ void enqueueToQueue(void)
 {
     int value;
     std::cin >> value;
-    //std::cout << "enqueue " << value << " to queue\n";
     Queue.insert(value);
     Queue.print();
     takeInputForQueue();

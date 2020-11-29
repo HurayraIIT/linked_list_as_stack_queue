@@ -33,7 +33,6 @@ void popFromStack(void)
 
 void pushToStack(void)
 {
-    // TODO: push element
     int value;
     std::cin >> value;
     //std::cout << "pushed " << value << " to stack\n";
