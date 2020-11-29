@@ -1,9 +1,10 @@
 #pragma once
 #include <iostream>
+#include "Node.h"
 
 // Stack Module
 
-void takeInputForStack(void);
+void takeInputForStack();
 
 void printStackHelp(void)
 {
@@ -19,15 +20,14 @@ void printStackHelp(void)
 
 void printStack(void)
 {
-    // TODO: print the stack
-    std::cout << "print stack\n";
+    Stack.print();
     takeInputForStack();
 }
 
 void popFromStack(void)
 {
-    // TODO: pop operation
-    std::cout << "pop from stack\n";
+    Stack.deleteLastElem();
+    Stack.print();
     takeInputForStack();
 }
 
@@ -36,11 +36,13 @@ void pushToStack(void)
     // TODO: push element
     int value;
     std::cin >> value;
-    std::cout << "push " << value << " to stack\n";
+    //std::cout << "pushed " << value << " to stack\n";
+    Stack.insert(value);
+    Stack.print();
     takeInputForStack();
 }
 
-void takeInputForStack(void)
+void takeInputForStack()
 {
     std::cout << "\t> ";
     char input[100] ;
