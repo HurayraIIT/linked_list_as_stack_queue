@@ -32,4 +32,9 @@ An implementation of stack and queue with singly linked list and object oriented
 
 # To run the code
 
-- Compile the project with c++14 or up, no extra dependencies
+- open CMD/terminal
+
+    git clone https://github.com/HurayraIIT/linked_list_as_stack_queue.git
+    cd linked_list_as_stack_queue
+    g++ main.cpp -o run
+    ./run
