@@ -42,6 +42,6 @@ An implementation of stack and queue with singly linked list and object oriented
 
     g++ main.cpp -o run
 
-    ./run
+    run.exe
     
 ```
