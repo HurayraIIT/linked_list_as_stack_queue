@@ -43,10 +43,10 @@ class LinkedList
         Node *node = head;
         if(node==0)
         {
-            std::cout << "\t\t# No elements in stack.\n";
+            std::cout << "\t\t# No elements.\n";
             return;
         }
-        std::cout << "\t\t# stack: ";
+        std::cout << "\t\t# head: ";
         while(node->next!=0)
         {
             std::cout << " " << node->data;
@@ -72,6 +72,15 @@ class LinkedList
             }
             //std::cout << "\t\t# Deleted " << node->next->data << std::endl;
             node->next = 0;
+        }
+    }
+
+    void deleteFirstElem(void)
+    {
+        if(head==0) std::cout << "\t\t# Queue is empty\n";
+        else
+        {
+            head = head->next;
         }
     }
 
