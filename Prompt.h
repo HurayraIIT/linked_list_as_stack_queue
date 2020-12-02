@@ -18,7 +18,6 @@ void printInitialChoiceQuery(void)
 {
     cout << "\t> Press \t1\tfor Stack\n";
     cout << "\t> Press \t2\tfor Queue\n";
-    cout << "\t> Press \t-1\tfor exit\n";
 }
 
 void printInvalidInputError(void)
